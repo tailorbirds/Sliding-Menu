@@ -1,0 +1,20 @@
+= Sliding Menu
+This is a simple sliding menu using only html, css and javascript.
+
+It has NOT been tested for all browsers (it seemd to work on webkit :D), so use it at your own discrition
+
+See the index.html file for a demo
+
+== USAGE
+To use it, you will need to have an html list (either ul or ol), with valid HTML.
+It can have nested lists, but has not been tested with other elements than ul, ol and li.
+
+You will also need to include jquery and jquery-ui before using this plugin (jquery plugin provides an easing method, and can be removed if the easing option is removed from the slide_moving_container function)
+
+Then you can use the js function sliding_menu(jquery_seletor)
+
+You will also probably want to override the on_select function or change it completely, and add the corresponding css and images, or create your own
+
+== LICENSE
+GPL v2: http://www.gnu.org/licenses/gpl-2.0.html
+
